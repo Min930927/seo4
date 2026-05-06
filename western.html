@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyl Vibes | 歐美唱片 (Western Records)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main class="container animate-fade">
+    <h1 class="section-title">歐美唱片 Western Records</h1>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;">Experience the timeless classics of Western Pop, Rock, Jazz, and Hip-Hop.</p>
+    <div class="product-grid" id="product-list">
+      <!-- Products injected via JS -->
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/app.js"></script>
+  <script src="js/components.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProducts('product-list', 'western');
+    });
+  </script>
+</body>
+</html>
