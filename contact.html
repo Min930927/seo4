@@ -13,30 +13,30 @@
   <main class="container animate-fade">
     <h1 class="section-title">聯絡我們 Contact Us</h1>
     <div class="content-box">
-      <p style="text-align: center; margin-bottom: 2rem;">Have a question about a record? Looking for a specific pressing? Drop us a message!</p>
+      <p style="text-align: center; margin-bottom: 2rem;">對於某張唱片有任何疑問嗎？正在尋找特定的版本？請留言給我們！</p>
       
-      <form onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+      <form onsubmit="event.preventDefault(); alert('訊息已成功送出！'); this.reset();">
         <div class="form-group">
-          <label for="name">Name 姓名</label>
-          <input type="text" id="name" required placeholder="Your name">
+          <label for="name">姓名</label>
+          <input type="text" id="name" required placeholder="您的姓名">
         </div>
         
         <div class="form-group">
-          <label for="email">Email 電子郵件</label>
+          <label for="email">電子郵件</label>
           <input type="email" id="email" required placeholder="your.email@example.com">
         </div>
         
         <div class="form-group">
-          <label for="subject">Subject 主旨</label>
-          <input type="text" id="subject" required placeholder="What is this regarding?">
+          <label for="subject">主旨</label>
+          <input type="text" id="subject" required placeholder="您想詢問什麼？">
         </div>
         
         <div class="form-group">
-          <label for="message">Message 訊息內容</label>
-          <textarea id="message" rows="5" required placeholder="Write your message here..."></textarea>
+          <label for="message">訊息內容</label>
+          <textarea id="message" rows="5" required placeholder="在此輸入您的訊息..."></textarea>
         </div>
         
-        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+        <button type="submit" class="btn" style="width: 100%;">送出訊息</button>
       </form>
     </div>
   </main>

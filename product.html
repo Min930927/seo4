@@ -28,7 +28,7 @@
       const container = document.getElementById('product-detail-view');
       
       if (!productId) {
-        container.innerHTML = '<div style="text-align: center; padding: 5rem;"><h2>Product Not Found</h2><a href="index.html" class="btn" style="margin-top: 1rem;">Back to Home</a></div>';
+        container.innerHTML = '<div style="text-align: center; padding: 5rem;"><h2>找不到此產品</h2><a href="index.html" class="btn" style="margin-top: 1rem;">返回首頁</a></div>';
         return;
       }
 
@@ -48,17 +48,17 @@
               <p class="product-desc">${product.desc}</p>
               
               <div class="product-meta">
-                <div><span>Label:</span> <span>${product.label}</span></div>
-                <div><span>Year:</span> <span>${product.year}</span></div>
-                <div><span>Format:</span> <span>12" Vinyl LP</span></div>
+                <div><span>發行廠牌：</span> <span>${product.label}</span></div>
+                <div><span>發行年份：</span> <span>${product.year}</span></div>
+                <div><span>實體格式：</span> <span>12 吋黑膠 LP</span></div>
               </div>
               
-              <button class="btn add-to-cart" onclick="alert('Added to cart!')">Add to Cart</button>
+              <button class="btn add-to-cart" onclick="alert('已加入購物車！')">加入購物車</button>
             </div>
           </div>
         `;
       } else {
-        container.innerHTML = '<div style="text-align: center; padding: 5rem;"><h2>Product Not Found</h2><a href="index.html" class="btn" style="margin-top: 1rem;">Back to Home</a></div>';
+        container.innerHTML = '<div style="text-align: center; padding: 5rem;"><h2>找不到此產品</h2><a href="index.html" class="btn" style="margin-top: 1rem;">返回首頁</a></div>';
       }
     });
   </script>

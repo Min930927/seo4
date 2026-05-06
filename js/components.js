@@ -23,8 +23,8 @@ const footerHTML = `
 <footer>
   <div class="footer-content">
     <div class="footer-info">
-      <h3>Vinyl Vibes Record Store</h3>
-      <p>&copy; 2026 Vinyl Vibes. All rights reserved.</p>
+      <h3>Vinyl Vibes 黑膠唱片行</h3>
+      <p>&copy; 2026 Vinyl Vibes. 保留所有權利。</p>
     </div>
     <div class="social-links">
       <a href="#">FB</a>
